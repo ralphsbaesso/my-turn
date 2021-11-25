@@ -1,0 +1,14 @@
+.byebug_history
+.git
+.gitignore
+.idea
+
+/coverage
+
+/log/*
+!/log/.keep
+
+/spec
+
+Dockerfile
+README.md
