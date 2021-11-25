@@ -35,3 +35,5 @@ class App
     end
   end
 end
+
+App.start_loop if ENV['APP_START_LOOP'].to_i.positive?

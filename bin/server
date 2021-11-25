@@ -3,4 +3,4 @@
 
 require_relative '../app/sinatra_server'
 
-system "ruby app/sinatra_server.rb #{ARGV.join(' ')}"
+system "APP_START_LOOP=1 ruby app/sinatra_server.rb #{ARGV.join(' ')}"

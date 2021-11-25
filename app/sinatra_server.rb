@@ -22,5 +22,3 @@ end
 get '/health' do
   :Ok
 end
-
-App.start_loop
